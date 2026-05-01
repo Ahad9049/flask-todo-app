@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  full-stack:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-01T19:26:39.47252427Z"
+    dependencies:
+    - name: flask-app
+      repository: file://charts/flask-app
+      version: 0.1.0
+    - name: nginx-app
+      repository: file://charts/nginx-app
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: d7dfb869f9b7b481130a288d5f98194b14a65376745be3fc27d757b26d39686f
+    name: full-stack
+    type: application
+    urls:
+    - https://github.com/Ahad9049/helm-package.git/full-stack-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-01T19:26:39.474883677Z"
+    dependencies:
+    - name: flask-app
+      repository: file://charts/flask-app
+      version: 0.1.0
+    - name: nginx-app
+      repository: file://charts/nginx-app
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: d7dfb869f9b7b481130a288d5f98194b14a65376745be3fc27d757b26d39686f
+    name: full-stack
+    type: application
+    urls:
+    - https://github.com/Ahad9049/helm-package.git/helm-package/full-stack-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-01T19:26:39.469797766Z"
